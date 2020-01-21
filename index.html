@@ -48,63 +48,64 @@
     <body>
         <div class="page">
             <header id="header" class="header">
-                <div class="navigationAuthor">
-                    <div class="navigation header__navigation">
-                        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-                        <label for="navi-toggle" id="navigation__button" class="navigation__button">
-                            <p class="navigation__icon">&nbsp;</p>
+                <div class="header__navigation">
+                    <div class="navigation header__navigation__burger">
+                        <input type="checkbox" class="header__navigation__burger-checkbox" id="navi-toggle">
+                        <label for="navi-toggle" id="navigation__button" class="header__navigation__burger-button navigationButton">
+                            <p class="header__navigation__burger-button-icon navigationIcon">&nbsp;</p>
                         </label>
-                        <div id="navigation-background" class="navigation__background">&nbsp;</div>
-                        <nav class="navigation__nav">
-                            <ul class="navigation__list">
-                                 <h3 class="navigation__list__section">Who made this?</h3>
+                        <div id="navigation-background" class="header__navigation__burger-background navigationBackground">&nbsp;</div>
+                        <nav class="header__navigation__burger-wrapper navigationWrapper">
+                            <ul class="header__navigation__burger-wrapper-list">
+                                 <h3 class="header__navigation__burger-wrapper-list-section">Who made this?</h3>
 
-                                <li class="navigation__item"> <a href="#about" class="navigation__link">About</a>
-
-                                </li>
-                                 <h3 class="navigation__list__section">Projects</h3>
-
-                                <li class="navigation__item"> <a href="#anchor-1" class="navigation__link singleWork">Anonymous Proxy</a>
+                                <li class="header__navigation__burger-wrapper-list-section-item"> <a href="#about" class="header__navigation__burger-wrapper-list-section-item-link  singleItem">About</a>
 
                                 </li>
-                                <li class="navigation__item"> <a href="#anchor-2" class="navigation__link singleWork">Awesome Profile Cards</a>
+                                 <h3 class="header__navigation__burger-wrapper-list-section">Projects</h3>
+
+                                <li class="header__navigation__burger-wrapper-list-section-item"> <a href="#anchor-1" class="header__navigation__burger-wrapper-list-section-item-link singleItem">Anonymous Proxy</a>
 
                                 </li>
-                                <li class="navigation__item"> <a href="#anchor-3" class="navigation__link singleWork">Dice Pig Game</a>
+                                <li class="header__navigation__burger-wrapper-list-section-item"> <a href="#anchor-2" class="header__navigation__burger-wrapper-list-section-item-link singleItem">Awesome Profile Cards</a>
 
                                 </li>
-                                <li class="navigation__item"> <a href="#anchor-4" class="navigation__link singleWork">Contact with us!</a>
+                                <li class="header__navigation__burger-wrapper-list-section-item"> <a href="#anchor-3" class="header__navigation__burger-wrapper-list-section-item-link singleItem">Dice Pig Game</a>
 
                                 </li>
-                                <li class="navigation__item"> <a href="#anchor-5" class="navigation__link singleWork">Series around the worls</a>
+                                <li class="header__navigation__burger-wrapper-list-section-item"> <a href="#anchor-4" class="header__navigation__burger-wrapper-list-section-item-link singleItem">Contact with us!</a>
 
                                 </li>
-                                <li class="navigation__item"> <a href="#anchor-6" class="navigation__link singleWork">Rick & Morty characters</a>
+                                <li class="header__navigation__burger-wrapper-list-section-item"> <a href="#anchor-5" class="header__navigation__burger-wrapper-list-section-item-link singleItem">Series around the worls</a>
 
                                 </li>
-                                <li class="navigation__item"> <a href="#anchor-7" class="navigation__link singleWork">Budgety</a>
+                                <li class="header__navigation__burger-wrapper-list-section-item"> <a href="#anchor-6" class="header__navigation__burger-wrapper-list-section-item-link singleItem">Rick & Morty characters</a>
 
                                 </li>
-                                 <h3 class="navigation__list__section">Contact</h3>
+                                <li class="header__navigation__burger-wrapper-list-section-item"> <a href="#anchor-7" class="header__navigation__burger-wrapper-list-section-item-link singleItem">Budgety</a>
 
-                                <div class="header__logo-aboutMe__navigation">
-                                    <div class="contactLink contact-button"> <a href="https://www.linkedin.com/in/%C3%A1ngela-benavente-almaz%C3%A1n-436003174/"
-                                        class="btn-text" target="_blank">
+                                </li>
+                                 <h3 class="header__navigation__burger-wrapper-list-section">Contact</h3>
+
+                                <div class="header__navigation__burger-wrapper-list-social">
+                                    <div class="header__navigation__burger-wrapper-list-social-button"> <a href="https://www.linkedin.com/in/%C3%A1ngela-benavente-almaz%C3%A1n-436003174/"
+                                        class="header__navigation__burger-wrapper-list-social-button-link" target="_blank">
                   <i class="social-icon fab fa-linkedin"></i>
                 </a>
 
                                     </div>
-                                    <div class="contactLink contact-button"> <a href="https://github.com/angelabenavente" class="btn-text" target="_blank">
+                                    <div class="header__navigation__burger-wrapper-list-social-button"> <a href="https://github.com/angelabenavente" class="header__navigation__burger-wrapper-list-social-button-link"
+                                        target="_blank">
                   <i class="social-icon fab fa-github"></i>
                 </a>
 
                                     </div>
-                                    <div class="contactLink contact-button"> <a href="mailto:angela.b.almazan@gmail.com" class="btn-text">
+                                    <div class="header__navigation__burger-wrapper-list-social-button"> <a href="mailto:angela.b.almazan@gmail.com" class="header__navigation__burger-wrapper-list-social-button-link">
                   <i class="social-icon fas fa-envelope-square"></i>
                 </a>
 
                                     </div>
-                                    <div class="contactLink contact-button"> <a href="tel:644154842" class="btn-text">
+                                    <div class="header__navigation__burger-wrapper-list-social-button"> <a href="tel:644154842" class="header__navigation__burger-wrapper-list-social-button-link">
                   <i class="social-icon fas fa-phone-square-alt"></i>
                 </a>
 
@@ -113,35 +114,35 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="header__logo"> <span id="author">AB</span>
- <span class="pageCategoryIntersection"> | </span>
+                    <div id="navigationInline" class="navigation header__navigation__inline"> <span id="author" class="navigation header__navigation__inline-author">AB</span>
 
-                        <a
-                        href="#about"><span class="pageCategoryAbout">about</span>
+                        <span
+                        class="navigation header__navigation__inline-intersection">|</span> <a href="#about"><span id="pageCategoryAbout" class="navigation header__navigation__inline-about">about</span></a>
 
-                            </a> <span class="pageCategoryIntersection"> | </span>
- <a href="#anchor-1"><span class="pageCategoryWork">work</span></a>
+                            <span
+                            class="navigation header__navigation__inline-intersection">|</span> <a href="#anchor-1"><span id="pageCategoryWork" class="navigation header__navigation__inline-work">work</span></a>
 
                     </div>
                 </div>
-                <div id="contactLinksHeader" class="header__logo-aboutMe">
-                    <div class="contactLink contact-button"> <a href="https://www.linkedin.com/in/%C3%A1ngela-benavente-almaz%C3%A1n-436003174/"
-                        class="btn-text" target="_blank">
+                <div id="contactLinksHeader" class="header__socialIcons">
+                    <div class="header__socialIcons__button"> <a href="https://www.linkedin.com/in/%C3%A1ngela-benavente-almaz%C3%A1n-436003174/"
+                        class="header__socialIcons__button-link" target="_blank">
         <i class="social-icon fab fa-linkedin"></i>
       </a>
 
                     </div>
-                    <div class="contactLink contact-button"> <a href="https://github.com/angelabenavente" class="btn-text" target="_blank">
+                    <div class="header__socialIcons__button"> <a href="https://github.com/angelabenavente" class="header__socialIcons__button-link"
+                        target="_blank">
         <i class="social-icon fab fa-github"></i>
       </a>
 
                     </div>
-                    <div class="contactLink contact-button"> <a href="mailto:angela.b.almazan@gmail.com" class="btn-text">
+                    <div class="header__socialIcons__button"> <a href="mailto:angela.b.almazan@gmail.com" class="header__socialIcons__button-link">
         <i class="social-icon fas fa-envelope-square"></i>
       </a>
 
                     </div>
-                    <div class="contactLink contact-button"> <a href="tel:644154842" class="btn-text">
+                    <div class="header__socialIcons__button"> <a href="tel:644154842" class="header__socialIcons__button-link">
         <i class="social-icon fas fa-phone-square-alt"></i>
       </a>
 
@@ -191,30 +192,30 @@
                     <section id="about" class="main__aboutMe listen-scroll">
                         <div class=main__aboutMe__cover></div>
                         <article class="main__aboutMe__content">
-                             <h2 class="heading-secondary">Who I am?</h2>
+                             <h2>Who I am?</h2>
 
-                            <p>I am a enthusiastic, creative Frontend developer with Graphic Design tolls
-                                experience that enjoy experimenting with the new development trends. I'm
-                                working regularly on my own and colaboratibe Web development projects.</p>
-                            <section
-                            class="main__aboutMe__content--formation">
-                                 <h2 class="heading-secondary">Formation</h2>
+                            <p>Hi! I'm Ángela, a enthusiastic, creative Frontend developer with Graphic
+                                Design tolls experience that enjoy experimenting with the new development
+                                trends. I'm working regularly on my own and colaboratibe Web development
+                                projects.</p>
+                            <section class="main__aboutMe__content-formation">
+                                 <h2>Formation</h2>
 
-                                <div class="main__aboutMe__content--formation--box">
-                                    <div id="js-toggle" class="bootcamp-view">
+                                <div class="main__aboutMe__content-formation-box">
+                                    <div id="js-toggle" class="main__aboutMe__content-formation-box-header">
                                         <div class="view-left">
                                             <div class="studiesWrapper">
-                                                <p class="formation__bootcamp--title">FrontEnd development Bootcamp</p> <span class=study-place>in Adalab</span>
+                                                <p class="formation__bootcamp-title">FrontEnd development Bootcamp</p> <span class=study-place>in Adalab</span>
 
                                             </div>
                                         </div>
-                                        <div class="formation__bootcamp--arrow"> <span>
+                                        <div class="formation__bootcamp-arrow"> <span>
               <i class="bootcamp-arrow-button fas fa-chevron-down"></i>
             </span>
 
                                         </div>
                                     </div>
-                                    <div class="view-hidden hidden" id="toggle">
+                                    <div class="main__aboutMe__content-formation-box-wrapper hidden" id="toggle">
                                         <ul>
                                             <li>- HTML5 | CSS3 | SASS.</li>
                                             <li>- Responsive design.</li>
@@ -227,8 +228,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="main__aboutMe__content--formation--box">
-                                    <div class="master__header-container">
+                                <div class="main__aboutMe__content-formation-box">
+                                    <div id="masterHeader" class="main__aboutMe__content-formation-box-header">
                                         <div class="master__header">
                                             <div class="studiesWrapper">
                                                 <p class="master__title">Web and Ghaphic Design Master</p> <span class=study-place>in AZPE</span>
@@ -241,7 +242,8 @@
 
                                         </div>
                                     </div>
-                                    <form class="master__form hidden" action="" method="post">
+                                    <form id="masterFormation" class="main__aboutMe__content-formation-box-wrapper hidden"
+                                    action="" method="post">
                                         <ul>
                                             <li>- Web development.</li>
                                             <li>- Wordpress</li>
@@ -251,9 +253,9 @@
                                         </ul>
                                     </form>
                                 </div>
-                                <div class="main__aboutMe__content--formation--box">
-                                    <div class="formation__grade">
-                                        <div class="formation-container">
+                                <div class="main__aboutMe__content-formation-box">
+                                    <div class="main__aboutMe__content-formation-box-grade">
+                                        <div id="gradeHeader" class="main__aboutMe__content-formation-box-header">
                                             <div class="studiesWrapper">
                                                 <p class="title">Languages & Communication Grade</p> <span class=study-place>in Universidad Autónoma de Madrid</span>
 
@@ -264,7 +266,7 @@
 
                                             </div>
                                         </div>
-                                        <div id="formation-button-section" class="validateInputsSection hidden">
+                                        <div id="formation-button-section" class="main__aboutMe__content-formation-box-wrapper hidden">
                                             <ul>
                                                 <li>- Communication techniques.</li>
                                                 <li>- Trading and Mediation.</li>
@@ -278,21 +280,21 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="main__aboutMe__content--formation--box">
-                                    <div id="js-toggle-courses" class="courses-view">
+                                <div class="main__aboutMe__content-formation-box">
+                                    <div id="js-toggle-courses" class="main__aboutMe__content-formation-box-header">
                                         <div class="view-left">
                                             <div class="studiesWrapper">
-                                                <p class="formation__courses--title">Especialize courses</p> <span class=study-place>Self-learning</span>
+                                                <p class="formation__courses-title">Especialize courses</p> <span class=study-place>Self-learning</span>
 
                                             </div>
                                         </div>
-                                        <div class="formation__courses--arrow"> <span>
+                                        <div class="formation__courses-arrow"> <span>
               <i class="courses-arrow-button fas fa-chevron-down"></i>
             </span>
 
                                         </div>
                                     </div>
-                                    <div class="view-hidden hidden" id="toggle-courses">
+                                    <div class="main__aboutMe__content-formation-box-wrapper hidden" id="toggle-courses">
                                         <ul>
                                             <li>- Complete JavaScript (45h). Udemy</li>
                                             <li>- Advanced CSS and Sass (28h). Udemy</li>
@@ -301,158 +303,156 @@
                                         </ul>
                                     </div>
                                 </div>
-                    </section>
-                    <section class="main__skills">
-                         <h2 class="heading-secondary">Skills</h2>
+                            </section>
+                            <section class="main__skills">
+                                 <h2 class="heading-secondary">Skills</h2>
 
-                        <div class="skillsContainer">
-                            <section class="margin-bottom">
-                                 <h3 class="category-front">Front-End</h3>
+                                <div class="main__skills__wrapper">
+                                    <section class="margin-bottom">
+                                         <h3 class="main__skills__wrapper-category frontHeader">Front-End</h3>
 
-                                <div class="frontend-wrapper skillsWraper">
-                                    <ul class="primera">
-                                        <li class="skill"> <i class="fab fa-html5" style="color: #dd4b25;"></i>HTML</li>
-                                        <li class="skill"> <i class="fab fa-css3-alt" style="color: #1a6fb4;"></i>CSS</li>
-                                        <li class="skill"> <i class="fab fa-js" style="color: #efd81d;"></i>Javascript</li>
-                                        <li class="skill"> <i class="fab fa-sass" style="color: #c76494;"></i>Sass</li>
-                                        <li class="skill">
-                                            <img class="skillIconPug" src="/assets/images/pug.svg">Pug</li>
-                                        <li class="skill"> <i class="fab fa-react" style="color: #2d82ca;"></i>React</li>
-                                        <li class="skill"> <i class="fab fa-node-js" style="color: #2d82ca;"></i>Node.js</li>
-                                        <li
-                                        class="skill"> <i class="fab fa-npm" style="color: #8df108;"></i>NPM</li>
-                                            <li class="skill"> <i class="fab fa-gulp" style="color: #dd4b25;"></i>Gulp</li>
-                                            <li class="skill"> <i class="fab fa-wordpress-simple" style="color: #2d82ca;"></i>Wordpress</li>
-                                            <li
-                                            class="skill"> <i class="fab fa-github-alt" style="color: #ece4b7;"></i>Github</li>
+                                        <div class="main__skills__wrapper-container frontWraper">
+                                            <ul class="main__skills__wrapper-container-list">
+                                                <li class="skill"> <i class="fab fa-html5" style="color: #dd4b25;"></i>HTML</li>
+                                                <li class="skill"> <i class="fab fa-css3-alt" style="color: #1a6fb4;"></i>CSS</li>
+                                                <li class="skill"> <i class="fab fa-js" style="color: #efd81d;"></i>Javascript</li>
+                                                <li class="skill"> <i class="fab fa-sass" style="color: #c76494;"></i>Sass</li>
+                                                <li class="skill">
+                                                    <img class="skillIconPug" src="/assets/images/pug.svg">Pug</li>
+                                                <li class="skill"> <i class="fab fa-react" style="color: #2d82ca;"></i>React</li>
+                                                <li class="skill"> <i class="fab fa-node-js" style="color: #2d82ca;"></i>Node.js</li>
                                                 <li
-                                                class="skill"> <i class="fas fa-code-branch" style="color: #dd4b25;"></i>Git</li>
-                                    </ul>
+                                                class="skill"> <i class="fab fa-npm" style="color: #8df108;"></i>NPM</li>
+                                                    <li class="skill"> <i class="fab fa-gulp" style="color: #dd4b25;"></i>Gulp</li>
+                                                    <li class="skill"> <i class="fab fa-wordpress-simple" style="color: #2d82ca;"></i>Wordpress</li>
+                                                    <li
+                                                    class="skill"> <i class="fab fa-github-alt" style="color: #ece4b7;"></i>Github</li>
+                                                        <li
+                                                        class="skill"> <i class="fas fa-code-branch" style="color: #dd4b25;"></i>Git</li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                    <div>
+                                        <section>
+                                             <h3 class="main__skills__wrapper-category designHeader">Graphic Design</h3>
+
+                                            <div class="main__skills__wrapper-container designWraper">
+                                                <ul class="main__skills__wrapper-container-list">
+                                                    <li class="skill">
+                                                        <img class="skillIcon" src="./assets/images/photoshop.png">Photoshop</li>
+                                                    <li class="skill">
+                                                        <img class="skillIcon" src="./assets/images/illustrator.png">Illustrator</li>
+                                                    <li class="skill">
+                                                        <img class="skillIcon" src="./assets/images/indesign.png">
+                                                        </i>InDesign</li>
+                                                    <li class="skill">
+                                                        <img class="skillIcon" src="./assets/images/lightroom.png">
+                                                        </i>Lightroom</li>
+                                                </ul>
+                                            </div>
+                                        </section>
+                                        <section class="margin-top">
+                                             <h3 class="main__skills__wrapper-category teamBuildingHeader">Team Building</h3>
+
+                                            <div class="main__skills__wrapper-container teamBuildingWraper">
+                                                <ul class="main__skills__wrapper-container-list">
+                                                    <li class="skill"> <i class="fab fa-trello" style="color: #0379c2;"></i>Trello</li>
+                                                    <li class="skill"> <i class="fas fa-sync" style="color: #e87205;"></i>Scrum</li>
+                                                    <li class="skill"> <i class="fas fa-cogs" style="color: #00c6fa;"></i>Agile</li>
+                                                </ul>
+                                            </div>
+                                        </section>
+                                    </div>
                                 </div>
                             </section>
-                            <div>
-                                <section>
-                                     <h3 class="category-design">Graphic Design</h3>
+                             <h2 class="main__aboutMe__content-downloadCV">More details in my...</h2>
 
-                                    <div class="graphic-design-wrapper skillsWraper">
-                                        <ul class="graphic-design">
-                                            <li class="skill">
-                                                <img class="skillIcon" src="./assets/images/photoshop.png">Photoshop</li>
-                                            <li class="skill">
-                                                <img class="skillIcon" src="./assets/images/illustrator.png">Illustrator</li>
-                                            <li class="skill">
-                                                <img class="skillIcon" src="./assets/images/indesign.png">
-                                                </i>InDesign</li>
-                                            <li class="skill">
-                                                <img class="skillIcon" src="./assets/images/lightroom.png">
-                                                </i>Lightroom</li>
-                                        </ul>
-                                    </div>
-                                </section>
-                                <section class="margin-top">
-                                     <h3 class="category-seo">Team Building</h3>
+                            <div class="main__aboutMe__content-downloadCV-button"> <a class="main__aboutMe__content-downloadCV-link" target="_blank" href="./assets/docs/CV_AngelaBenavente_Developer.pdf"
+                                download="CV_AngelaBenavente.PDF">
+        <i class="fas fa-download"></i>&nbsp  Curriculum Vitae (PDF)
+      </a>
 
-                                    <div class="seo-wrapper skillsWraper">
-                                        <ul class="primera">
-                                            <li class="skill"> <i class="fab fa-trello" style="color: #0379c2;"></i>Trello</li>
-                                            <li class="skill"> <i class="fas fa-sync" style="color: #e87205;"></i>Scrum</li>
-                                            <li class="skill"> <i class="fas fa-cogs" style="color: #00c6fa;"></i>Agile</li>
-                                        </ul>
-                                    </div>
-                                </section>
                             </div>
-                        </div>
-                    </section>
-                     <h2 class="heading-secondary paragraph-linkedin">More details in my...</h2>
+                             <h2>Contact</h2>
 
-                    <div class="download-cv-button"> <a class="download-cv-link" target="_blank" href="./assets/docs/CV_AngelaBenavente_Developer.pdf"
-                        download="CV_AngelaBenavente.PDF">
-            <i class="fas fa-download"></i>&nbsp  Curriculum Vitae (PDF)
-          </a>
-
-                    </div>
-                    <!-- https://takeafile.com/?f=gijoyaxise -->
-                     <h2>Contact</h2>
-
-                    <p class="heading-final u-margin-bottom-small">If you have a project or want to collaborate you are very welcome to contact
-                        me.
-                        <br>I am available for freelance projects and full-time employment.</p>
-                    <div
-                    class="contact-button"> <a class="btn-text">
-          <i class="social-icon fas fa-map-marker-alt"></i>&nbsp Madrid, Spain
-        </a>
+                            <p class="main__headingContact u-margin-bottom-small">If you have a project or want to collaborate you are very welcome to contact
+                                me. I am available for freelance projects and full-time employment.</p>
+                            <div
+                            class="main__contactButton"> <a class="btn-text">
+        <i class="social-icon fas fa-map-marker-alt"></i>&nbsp Madrid, Spain
+      </a>
 
         </div>
-        <div class="contact-button"> <a href="https://www.linkedin.com/in/%C3%A1ngela-benavente-almaz%C3%A1n-436003174/"
+        <div class="main__contactButton"> <a href="https://www.linkedin.com/in/%C3%A1ngela-benavente-almaz%C3%A1n-436003174/"
             target="_blank" class="btn-text">
-          <i class="social-icon fab fa-linkedin"></i>&nbsp Ángela Benavente Almazán
+        <i class="social-icon fab fa-linkedin"></i>&nbsp Ángela Benavente Almazán
+      </a>
+
+        </div>
+        <div class="main__contactButton"> <a href="https://github.com/angelabenavente" target="_blank" class="btn-text">
+          <i class="social-icon fab fa-github"></i>&nbsp @angelabenavente
         </a>
 
         </div>
-        <div class="contact-button"> <a href="https://github.com/angelabenavente" target="_blank" class="btn-text">
-            <i class="social-icon fab fa-github"></i>&nbsp @angelabenavente
-          </a>
+        <div class="main__contactButton"> <a href="mailto:angela.b.almazan@gmail.com" target="_blank" class="btn-text">
+        <i class="social-icon fas fa-envelope-square"></i>&nbsp  angela.b.almazan@gmail.com
+      </a>
 
         </div>
-        <div class="contact-button"> <a href="mailto:angela.b.almazan@gmail.com" target="_blank" class="btn-text">
-          <i class="social-icon fas fa-envelope-square"></i>&nbsp  angela.b.almazan@gmail.com
-        </a>
-
-        </div>
-        <div class="contact-button"> <a href="tel:644154842" target="_blank" class="btn-text">
-          <i class="social-icon fas fa-phone-square-alt"></i> &nbsp+0034 644154842
-        </a>
+        <div class="main__contactButton"> <a href="tel:644154842" target="_blank" class="btn-text">
+        <i class="social-icon fas fa-phone-square-alt"></i> &nbsp+0034 644154842
+      </a>
 
         </div>
         </article>
         </section>
-        <div id="anchor-toc" class="works-scroll">
+        <div id="anchor-toc" class="main__anchors">
             <ul>
                 <li> <a data-scroll href="#anchor-1">
-        <i id="firstProjectPosition" class="nav-work-link selected fas fa-circle">
-          <span class="workTitle">Anonymous proxy</span>
+        <i id="firstProjectPosition" class="navigation__item selected fas fa-circle">
+          <span class="main__anchors__workTitle title">Anonymous proxy</span>
         </i>
       </a>
 
                 </li>
                 <li> <a data-scroll href="#anchor-2">
-        <i id="secondProjectPosition" class="nav-work-link unselected fas fa-circle">
-          <span class="workTitle">Awesome Profile Cards</span>
+        <i id="secondProjectPosition" class="navigation__item unselected fas fa-circle">
+          <span class="main__anchors__workTitle title">Awesome Profile Cards</span>
         </i>
       </a>
 
                 </li>
                 <li> <a data-scroll href="#anchor-3">
-        <i id="thirdProjectPosition" class="nav-work-link unselected fas fa-circle">
-          <span class="workTitle">Dice Pig Game</span>
+        <i id="thirdProjectPosition" class="navigation__item unselected fas fa-circle">
+          <span class="main__anchors__workTitle title">Dice Pig Game</span>
         </i>
       </a>
 
                 </li>
                 <li> <a data-scroll href="#anchor-4">
-        <i id="fourthProjectPosition" class="nav-work-link unselected fas fa-circle">
-          <span class="workTitle">Contact us!</span>
+        <i id="fourthProjectPosition" class="navigation__item unselected fas fa-circle">
+          <span class="main__anchors__workTitle title">Contact us!</span>
         </i>
       </a>
 
                 </li>
                 <li> <a data-scroll href="#anchor-5">
-        <i id="fifthProjectPosition" class="nav-work-link unselected fas fa-circle">
-          <span class="workTitle">Series Around The World</span>
+        <i id="fifthProjectPosition" class="navigation__item unselected fas fa-circle">
+          <span class="main__anchors__workTitle title">Series Around The World</span>
         </i>
       </a>
 
                 </li>
                 <li> <a data-scroll href="#anchor-6">
-        <i id="sixthProjectPosition" class="nav-work-link unselected fas fa-circle">
-          <span class="workTitle">Rick & Morty Characters</span>
+        <i id="sixthProjectPosition" class="navigation__item unselected fas fa-circle">
+          <span class="main__anchors__workTitle title">Rick & Morty Characters</span>
         </i>
       </a>
 
                 </li>
                 <li> <a data-scroll href="#anchor-7">
-        <i id="seventhProjectPosition" class="nav-work-link unselected fas fa-circle">
-          <span class="workTitle">Budgety</span>
+        <i id="seventhProjectPosition" class="navigation__item unselected fas fa-circle">
+          <span class="main__anchors__workTitle title">Budgety</span>
         </i>
       </a>
 
@@ -460,25 +460,25 @@
             </ul>
         </div>
         <div id="anchor-1" class="largeBlock listen-scroll">
-            <div id="first-project" class="first-proyect proyect">
-                <div id="project-image" class="first-proyect-image image"></div>
-                <div id="project-description" class="first-proyect-description description">
+            <div id="first-project" class="first-proyect main__project">
+                <div id="project-image" class="first-proyect-image main__project__image"></div>
+                <div id="project-description" class="main__project__description">
                     <div class="textWorks">
-                         <h3 class="projectTitle" id="projectTitle">Anonymous Proxy</h3>
+                         <h3 class="main__project__description-title" id="projectTitle">Anonymous Proxy</h3>
 
                         <p id="projectDescription">Responsive design project</p>
                         <p id="projectSkills">HTML | SASS | JS | GULP</p>
-                        <div class="linksInfoProject">
-                            <button class="seeMore-button"> <a id="seePlaceLink" href="http://beta.adalab.es/evaluacion-final-modulo-1-angelabenavente/"
+                        <div class="main__project__description-title-links">
+                            <button class="seeMore-button"> <a class="linkToProject" id="seePlaceLink" href="http://beta.adalab.es/evaluacion-final-modulo-1-angelabenavente/"
                                 target="_blank">Visit place</a>
 
                             </button>
-                            <button class="seeMore-button"> <a id="seeCodeLink" href="https://github.com/angelabenavente/evaluacion-final-modulo-1-angelabenavente"
+                            <button class="seeMore-button"> <a class="linkToProject" id="seeCodeLink" href="https://github.com/angelabenavente/evaluacion-final-modulo-1-angelabenavente"
                                 target="_blank">See code</a>
 
                             </button>
                         </div> <a class="nextSection" data-scroll href="#anchor-2">
-          <i id="secondProjectPosition" class="nav-work-link fas fa-angle-down"></i>
+          <i id="secondProjectPosition" class="navigation__item fas fa-angle-down"></i>
         </a>
 
                     </div>
@@ -486,74 +486,74 @@
             </div>
         </div>
         <div id="anchor-2" class="largeBlock listen-scroll">
-            <div id="second-project" class="second-proyect proyect">
-                <div id="cardsWork" class="second-proyect-image image"></div>
-                <div class="second-proyect-description description">
-                     <h3>Awesome Profile Cards</h3>
+            <div id="second-project" class="second-proyect main__project">
+                <div id="cardsWork" class="second-proyect-image main__project__image"></div>
+                <div class="main__project__description second-proyect-description description">
+                     <h3 class="main__project__description-title">Awesome Profile Cards</h3>
 
                     <p>App to generare & share proffesional cards</p>
                     <p>REACT | APIs | JS | GULP | LocalStore</p>
-                    <div class="linksInfoProject">
-                        <button class="seeMore-button"> <a id="seePlaceLink" href="http://beta.adalab.es/project-promo-h-module-3-team-2-afternoon/"
+                    <div class="main__project__description-title-links">
+                        <button class="seeMore-button"> <a id="seePlaceLink" class="linkToProject" href="http://beta.adalab.es/project-promo-h-module-3-team-2-afternoon/"
                             target="_blank">Visit place</a>
 
                             <!--<a href="./proxyWork.html">Visit place</a>-->
                         </button>
-                        <button class="seeMore-button"> <a id="seeCodeLink" href="https://github.com/Adalab/project-promo-h-module-3-team-2-afternoon"
+                        <button class="seeMore-button"> <a id="seeCodeLink" class="linkToProject" href="https://github.com/Adalab/project-promo-h-module-3-team-2-afternoon"
                             target="_blank">See code</a>
 
                         </button>
                     </div> <a class="nextSection" data-scroll href="#anchor-3">
-          <i id="secondProjectPosition" class="nav-work-link fas fa-angle-down"></i>
+          <i id="secondProjectPosition" class="navigation__item fas fa-angle-down"></i>
         </a>
 
                 </div>
             </div>
         </div>
         <div id="anchor-3" class="largeBlock listen-scroll">
-            <div id="third-project" class="third-proyect proyect">
-                <div id="gameWork" class="third-proyect-image image"></div>
-                <div class="third-proyect-description description">
-                     <h3>Dice Pig Game</h3>
+            <div id="third-project" class="third-proyect main__project">
+                <div id="gameWork" class="third-proyect-image main__project__image"></div>
+                <div class="third-proyect-description main__project__description">
+                     <h3 class="main__project__description-title">Dice Pig Game</h3>
 
                     <p>Game for two</p>
                     <p>HTML | CSS | JS</p>
-                    <div class="linksInfoProject">
-                        <button class="seeMore-button"> <a id="seePlaceLink" href="https://angelabenavente.github.io/DicePigGame/"
+                    <div class="main__project__description-title-links">
+                        <button class="seeMore-button"> <a class="linkToProject" id="seePlaceLink" href="https://angelabenavente.github.io/DicePigGame/"
                             target="_blank">Visit place</a>
 
                             <!--<a href="./proxyWork.html">Visit place</a>-->
                         </button>
-                        <button class="seeMore-button"> <a id="seeCodeLink" href="https://github.com/angelabenavente/DicePigGame"
+                        <button class="seeMore-button"> <a class="linkToProject" id="seeCodeLink" href="https://github.com/angelabenavente/DicePigGame"
                             target="_blank">See code</a>
 
                         </button>
                     </div> <a class="nextSection" data-scroll href="#anchor-4">
-          <i id="thirdProjectPosition" class="nav-work-link fas fa-angle-down"></i>
+          <i id="thirdProjectPosition" class="navigation__item fas fa-angle-down"></i>
         </a>
 
                 </div>
             </div>
         </div>
         <div id="anchor-4" class="largeBlock listen-scroll">
-            <div id="fourth-project" class="fourth-proyect proyect">
-                <div id="contactWork" class="fourth-proyect-image image"></div>
-                <div class="fourth-proyect-description description">
-                     <h3>Contact with us!</h3>
+            <div id="fourth-project" class="fourth-proyect main__project">
+                <div id="contactWork" class="fourth-proyect-image main__project__image"></div>
+                <div class="fourth-proyect-description main__project__description">
+                     <h3 class="main__project__description-title">Contact with us!</h3>
 
                     <p>Web for contact with work teams</p>
                     <p>HTML | CSS | JS | GULP</p>
-                    <div class="linksInfoProject">
-                        <button class="seeMore-button"> <a id="seePlaceLink" href="http://beta.adalab.es/project-promo-h-module-1-team-2-afternoon-sprint-2-/"
+                    <div class="main__project__description-title-links">
+                        <button class="seeMore-button"> <a class="linkToProject" id="seePlaceLink" href="http://beta.adalab.es/project-promo-h-module-1-team-2-afternoon-sprint-2-/"
                             target="_blank">Visit place</a>
 
                             <!--<a href="./proxyWork.html">Visit place</a>-->
                         </button>
-                        <button class="seeMore-button"> <a id="seeCodeLink" href="https://github.com/Adalab/project-promo-h-module-1-team-2-afternoon-sprint-2-"
+                        <button class="seeMore-button"> <a class="linkToProject" id="seeCodeLink" href="https://github.com/Adalab/project-promo-h-module-1-team-2-afternoon-sprint-2-"
                             target="_blank">See code</a>
 
-                        </button> <a class="nextSection linkToHome" data-scroll href="#anchor-5">
-          <i id="fourthProjectPosition" class="nav-work-link fas fa-angle-down"></i>
+                        </button> <a class="nextSection" data-scroll href="#anchor-5">
+          <i id="fourthProjectPosition" class="navigation__item fas fa-angle-down"></i>
         </a>
 
                     </div>
@@ -561,74 +561,74 @@
             </div>
         </div>
         <div id="anchor-5" class="largeBlock listen-scroll">
-            <div id="fifth-project" class="fifth-proyect proyect">
-                <div id="gameWork" class="fifth-proyect-image image"></div>
-                <div class="fifth-proyect-description description">
-                     <h3>Series Around The World</h3>
+            <div id="fifth-project" class="fifth-proyect main__project">
+                <div id="gameWork" class="fifth-proyect-image main__project__image"></div>
+                <div class="fifth-proyect-description main__project__description">
+                     <h3 class="main__project__description-title">Series Around The World</h3>
 
                     <p>Web to search international series (in progress)</p>
                     <p>HTML | SASS | JS | APIs | LocalStore</p>
-                    <div class="linksInfoProject">
-                        <button class="seeMore-button"> <a id="seePlaceLink" href="https://angelabenavente.github.io/SeriesAroundTheWorld/"
+                    <div class="main__project__description-title-links">
+                        <button class="seeMore-button"> <a class="linkToProject" id="seePlaceLink" href="https://angelabenavente.github.io/SeriesAroundTheWorld/"
                             target="_blank">Visit place</a>
 
                             <!--<a href="./proxyWork.html">Visit place</a>-->
                         </button>
-                        <button class="seeMore-button"> <a id="seeCodeLink" href="https://github.com/angelabenavente/SeriesAroundTheWorld"
+                        <button class="seeMore-button"> <a class="linkToProject" id="seeCodeLink" href="https://github.com/angelabenavente/SeriesAroundTheWorld"
                             target="_blank">See code</a>
 
                         </button>
                     </div> <a class="nextSection" data-scroll href="#anchor-6">
-          <i id="fifthProjectPosition" class="nav-work-link fas fa-angle-down"></i>
+          <i id="fifthProjectPosition" class="navigation__item fas fa-angle-down"></i>
         </a>
 
                 </div>
             </div>
         </div>
         <div id="anchor-6" class="largeBlock listen-scroll">
-            <div id="sixth-project" class="sixth-proyect proyect">
-                <div id="contactWork" class="sixth-proyect-image image"></div>
-                <div class="sixth-proyect-description description">
-                     <h3>Ricky & Morty Characters</h3>
+            <div id="sixth-project" class="sixth-proyect main__project">
+                <div id="contactWork" class="sixth-proyect-image main__project__image"></div>
+                <div class="sixth-proyect-description main__project__description">
+                     <h3 class="main__project__description-title">Ricky & Morty Characters</h3>
 
                     <p>Web to search the serie characters</p>
                     <p>REACT | APIs | SASS | JS | Router</p>
-                    <div class="linksInfoProject">
-                        <button class="seeMore-button"> <a id="seePlaceLink" href="http://beta.adalab.es/modulo-3-evaluacion-final-angelabenavente/"
+                    <div class="main__project__description-title-links">
+                        <button class="seeMore-button"> <a class="linkToProject" id="seePlaceLink" href="http://beta.adalab.es/modulo-3-evaluacion-final-angelabenavente/"
                             target="_blank">Visit place</a>
 
                             <!--<a href="./proxyWork.html">Visit place</a>-->
                         </button>
-                        <button class="seeMore-button"> <a id="seeCodeLink" href="https://github.com/angelabenavente/RickyMortyCharacters"
+                        <button class="seeMore-button"> <a class="linkToProject" id="seeCodeLink" href="https://github.com/angelabenavente/RickyMortyCharacters"
                             target="_blank">See code</a>
 
                         </button>
-                    </div> <a class="nextSection linkToHome" data-scroll href="#anchor-7">
-        <i id="sixthProjectPosition" class="nav-work-link fas fa-angle-down"></i>
+                    </div> <a class="nextSection" data-scroll href="#anchor-7">
+        <i id="sixthProjectPosition" class="navigation__item fas fa-angle-down"></i>
       </a>
 
                 </div>
             </div>
         </div>
         <div id="anchor-7" class="largeBlock listen-scroll">
-            <div id="seventh-project" class="seventh-proyect proyect">
-                <div id="cardsWork" class="seventh-proyect-image image"></div>
-                <div class="seventh-proyect-description description">
-                     <h3>Budgety</h3>
+            <div id="seventh-project" class="seventh-proyect main__project">
+                <div id="cardsWork" class="seventh-proyect-image main__project__image"></div>
+                <div class="seventh-proyect-description main__project__description">
+                     <h3 class="main__project__description-title">Budgety</h3>
 
                     <p>App to control your expenses and incomes</p>
                     <p>HTML | CSS | JS</p>
-                    <div class="linksInfoProject">
-                        <button class="seeMore-button"> <a id="seePlaceLink" href="https://angelabenavente.github.io/Budgety"
+                    <div class="main__project__description-title-links">
+                        <button class="seeMore-button"> <a class="linkToProject" id="seePlaceLink" href="https://angelabenavente.github.io/Budgety"
                             target="_blank">Visit place</a>
 
                             <!--<a href="./proxyWork.html">Visit place</a>-->
                         </button>
-                        <button class="seeMore-button"> <a id="seeCodeLink" href="https://github.com/angelabenavente/Budgety"
+                        <button class="seeMore-button"> <a class="linkToProject" id="seeCodeLink" href="https://github.com/angelabenavente/Budgety"
                             target="_blank">See code</a>
 
-                        </button> <a class="nextSection linkToHome" data-scroll href="#about">
-          <i id="lastProjectPosition" class="nav-work-link fas fa-angle-up"></i>
+                        </button> <a class="nextSection" data-scroll href="#about">
+          <i id="lastProjectPosition" class="navigation__item fas fa-angle-up"></i>
         </a>
 
                     </div>
